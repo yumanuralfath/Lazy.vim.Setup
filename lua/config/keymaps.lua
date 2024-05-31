@@ -20,7 +20,7 @@ keymap.set("i", "<C-;>", function()
 end, { expr = true, silent = true })
 
 -- Save file and quit
-keymap.set("n", "<Leader>w", ":update<Return>", opts)
+keymap.set("n", "<C-s>", ":update<Return>", opts)
 keymap.set("n", "<Leader>q", ":quit<Return>", opts)
 keymap.set("n", "<Leader>Q", ":qa<Return>", opts)
 
